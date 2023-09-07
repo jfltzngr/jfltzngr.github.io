@@ -1,8 +1,8 @@
 ---
 layout: post
-date: 2015-10-22 15:59:00-0400
+date: 2023-09-07 15:00:00-0000
 inline: true
 related_posts: false
 ---
 
-A simple inline announcement.
+Dear dacl-community, The dacl10k dataset paper was recently published via arXiv: https://arxiv.org/abs/2309.00460! 
