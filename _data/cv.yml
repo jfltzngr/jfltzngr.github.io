@@ -4,27 +4,18 @@
     - name: Full Name
       value: Johannes Flotzinger
     - name: Date of Birth
-      value: 26th April 1994
+      value: 14th March 1879
     - name: Languages
-      value: German, English, French, Italian
+      value: English, German
 
 - title: Education
   type: time_table
   contents:
-    - title: Master of Engineering
-      institution: OTH Regensburg, Germany
-      year: 2019
+    - title: PhD
+      institution: University of Zurich, Zurich, Switzerland
+      year: 1905
       description:
-        - In my Master's I focused on the areas building and infrastructure rehabilitation.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Bachelor of Engineering
-      institution: OTH Regensburg, Germany
-      year: 2016
-      description:
-        - In my Bachelor I focused on Structural Engineering.
+        - Description 1.
         - Description 2.
         - title: Description 3.
           contents:
@@ -40,9 +31,9 @@
 - title: Experience
   type: time_table
   contents:
-    - title: PhD Candidate
-      institution: Institute for Structural Engineering, University of the Bundeswehr Munich
-      year: 2020 - now
+    - title: Professor of Theoretical Physics
+      institution: Institute for Advanced Study, Princeton University
+      year: 1933 - 1955
       description:
         - Description 1.
         - Description 2.

@@ -8,18 +8,7 @@ category: work
 giscus_comments: true
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
-
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
-
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+The dacl-app, which is the acronym for “damage classiﬁcation-application”, performs live image multi-target classiﬁcation of the aforementioned damage classes with two state-of-the-art CNNs. Live image classiﬁcation means that a speciﬁc amount of video frames of the live camera output is constantly fed into the deployed CNN. The model’s inference time depends on the hardware of the smartphone and the model’s architecture, mostly its number of parameters and the applied data types. Therefore, the app displays measurements to describe its computational performance.
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
