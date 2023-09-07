@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Dear dacl-community, The dacl10k dataset paper was recently published via arXiv: https://arxiv.org/abs/2309.00460! 
+Dear 🐶dacl-community🐶, The dacl10k dataset paper was recently published via [arXiv](https://arxiv.org/abs/2309.00460)! 
