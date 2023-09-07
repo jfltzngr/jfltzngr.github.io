@@ -7,7 +7,7 @@ subtitle: CV Research @ <a href='https://www.google.com/search?channel=fs&client
 profile:
   align: right
   image: prof_pic.jpg
-  image_circular: true # crops the image to make it circular
+  image_circular: false # crops the image to make it circular
   address: >
     <p>Room 0166, Building 37</p>
     <p>Werner-Heisenberg-Weg 39</p>
