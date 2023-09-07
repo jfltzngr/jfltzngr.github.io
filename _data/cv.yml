@@ -2,38 +2,48 @@
   type: map
   contents:
     - name: Full Name
-      value: Albert Einstein
+      value: Johannes Flotzinger
     - name: Date of Birth
-      value: 14th March 1879
+      value: 26th April 1994
     - name: Languages
-      value: English, German
+      value: German, English, French, Italian
 
 - title: Education
   type: time_table
   contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
+    - title: Master of Engineering
+      institution: OTH Regensburg, Germany
+      year: 2019
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
+        - My Master's focused on the areas building and infrastructure rehabilitation.
+        # - Description 2.
+        # - title: Description 3.
+        #   contents:
+        #     - Sub-description 1.
+        #     - Sub-description 2.
+    - title: Bachelor of Engineering
+      institution: OTH Regensburg, Germany
+      year: 2016
       description:
-        - Description 1.
-        - Description 2.
+        - My Bachelor's focused on Structural Engineering.
+        # - Description 2.
+        # - title: Description 3.
+        #   contents:
+        #     - Sub-description 1.
+        #     - Sub-description 2.
+    # - title: Federal teaching diploma
+    #   institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
+    #   year: 1900
+    #   description:
+    #     - Description 1.
+    #     - Description 2.
 
 - title: Experience
   type: time_table
   contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
+    - title: PhD Candidate
+      institution: Institute for Structural Engineering, University of the Bundeswehr Munich
+      year: 2020 - now
       description:
         - Description 1.
         - Description 2.
