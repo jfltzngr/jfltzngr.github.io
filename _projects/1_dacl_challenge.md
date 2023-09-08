@@ -1,9 +1,9 @@
 ---
 layout: page
-title: 1st Workshop on Vision-Based Structural Inspections in Civil Engineering
-description: 1st Workshop on Vision-Based Structural Inspections in Civil Engineering at WACV 2024
-img: assets/img/mobap.png
-redirect: https://dacl.ai/workshop.html
+title: dacl-challenge
+description: Semantic Bridge Damage Segmentation
+img: assets/img/08700.jpg
+redirect: https://eval.ai/web/challenges/challenge-page/2130/overview
 importance: 2
 category: work
 giscus_comments: true
