@@ -12,14 +12,14 @@ The dacl-app, which is the acronym for “damage classiﬁcation-application”,
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include video.html path="assets/video/ScreenCast.mp4" title="ScreenCast dacl-app" class="img-fluid rounded z-depth-1" autoplay="True" %}
+        {% include video.html path="assets/video/ScreenCast.mp4" title="ScreenCast dacl-app" class="img-fluid rounded z-depth-1" autoplay="True" loop="True" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.html path="assets/img/Thumbnail.jpg" title="Thumbnail dacl-app" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    dacl-app and a corresponding thumbnail during the classification of Spalling, Exposed Reinforcement and Corrosion.
+    dacl-app and a corresponding thumbnail during the classification of Spalling, Exposed Rebars and Rust.
 </div>
 
 
