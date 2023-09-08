@@ -12,33 +12,19 @@ The dacl-app, which is the acronym for “damage classiﬁcation-application”,
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include video.html path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include video.html path="assets/video/ScreenCast.mp4" title="ScreenCast dacl-app" class="img-fluid rounded z-depth-1" autoplay="True" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/Thumbnail.jpg" title="Thumbnail dacl-app" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
+    dacl-app and a corresponding thumbnail during the classification of Spalling, Exposed Reinforcement and Corrosion.
 </div>
 
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, *bled* for your project, and then... you reveal its glory in the next row of images.
 
 
-<div class="row justify-content-sm-center">
+<!-- <div class="row justify-content-sm-center">
     <div class="col-sm-8 mt-3 mt-md-0">
         {% include figure.html path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
@@ -67,4 +53,4 @@ Here's the code for the last row of images above:
     </div>
 </div>
 ```
-{% endraw %}
+{% endraw %} -->
