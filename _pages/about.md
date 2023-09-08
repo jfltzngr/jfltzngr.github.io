@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: CV Research @ <a href='https://www.google.com/search?channel=fs&client=ubuntu-sn&q=johannes+flotzinger+unibw'>University of the Bundeswehr, Institute for Structural Engineering</a> | Teaching machines detecting building defects.
+subtitle: CV Research @ <a href='https://www.google.com/search?channel=fs&client=ubuntu-sn&q=johannes+flotzinger+unibw'>University of the Bundeswehr, Institute for Structural Engineering</a> | Teaching machines to detect building defects.
 
 profile:
   align: right
