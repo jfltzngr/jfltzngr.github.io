@@ -11,13 +11,56 @@
 - title: Education
   type: time_table
   contents:
+    - title: PhD Candidate - Automated building inspections
+      institution: University of the Budneswehr Munich, Germany
+      year: 2020 - present
     - title: MEng - Civil engineering
       institution: OTH Regensburg, Germany
       year: 2016 - 2019
       description:
       - My Master's focused on the areas building and infrastructure rehabilitation.
-    - title: BEng
+    - title: BEng - Civil engineering
       institution: OTH Regensburg, Germany
       year: 2012 - 2016
       description:
       - My Bachelor's focused on Structural Engineering.
+
+- title: Working Experiences
+  type: time_table
+  contents:
+    - title: Student Trainee in bridge restoration
+      institution: <a href="https://dywidag.com/">DYWIDAG-Systems International (DSI)</a>
+      year: Nov 2018 – Mar 2019
+      description:
+      - I inspected external tendons in a cable-stayed bridge and developed a concept for its restoration.
+    - title: Internship in structural engineering of prestressed flat slabs
+      institution: <a href="https://interspan.global/">Interspan</a>
+      year: Feb 2017 - Mar 2017
+      description: As an intern at Interspan I developed structural designs of prestressed flat slabs. 
+    - title: Internship in building power plants
+      institution: <a href="https://max-boegl.de/en/">Max Bögl</a>
+      year: Aug 2014 - Dec 2014
+      description: I assisted the site manager building wind turbines. Additionally, I participated in the building itself, too. 
+
+- title: Open Source Projects
+  type: time_table
+  contents:
+    - title: <a href="https://github.com/phiyodr/building-inspection-toolkit">bikit -- Building Inspection Toolkit</a>
+      year: 2021 - present
+    - title: <a href="https://github.com/phiyodr/bikit-models">bikit-models</a>
+      year: 2022 - present
+
+- title: Academic Interests
+  type: nested_list
+  contents:
+    - title: Structural inspection
+    - title: Computer vision
+    - title: Deep learning
+    - title: Sensor fusion
+    - title: Building materials
+
+- title: Other Interests
+  type: list
+  contents:
+    - <u>Hobbies:</u> Music (No Top-20s), Guitar, Handball, Cycling
+

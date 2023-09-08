@@ -2,7 +2,7 @@
 layout: page
 title: dacl.ai
 description: Website hosting the leaderboard for multi-target classification of reinforced concrete defects
-img: assets/img/DACL_ohneKontur_freigestellt.png
+img: assets/img/dacl.png
 importance: 1
 category: work
 redirect: https://dacl.ai/
