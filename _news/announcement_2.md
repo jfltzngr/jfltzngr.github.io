@@ -4,9 +4,9 @@ date: 2023-09-08 17:00:00-0000
 inline: true
 related_posts: false
 ---
- 
+
+🐶🐶🐶<br/> 
 Dear 🐶dacl-community🐶, <br/>
-🐶🐶🐶<br/>
  We just published the workshop website and the dacl-challenge website. The workshop is called ["1st Workshop on Vision-Based Structural Inspections in Civil Engineering"](https://dacl.ai/workshop.html) and will take place at [WACV 2024](https://wacv2024.thecvf.com/).<br/>
 
 
