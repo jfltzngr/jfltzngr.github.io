@@ -3,7 +3,7 @@ layout: page
 title: dacl-app
 description: Android app for live image defect classification
 img: 
-importance: 3
+importance: 5
 category: work
 giscus_comments: true
 ---

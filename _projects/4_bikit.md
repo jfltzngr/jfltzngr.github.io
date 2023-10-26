@@ -2,7 +2,7 @@
 layout: page
 title: bikit
 description: The Building Inspection Toolkit helps you with machine learning projects in the field of damage recognition on built structures, currenlty with a focus on bridges made of reinforced concrete.
-importance: 2
+importance: 4
 category: work
 related_publications: 9897743
 giscus_comments: true
