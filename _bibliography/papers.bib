@@ -1,6 +1,40 @@
 ---
 ---
 
+@INPROCEEDINGS{10495681,
+  code={https://github.com/phiyodr/dacl10k-toolkit},
+  author={Flotzinger, Johannes and Rösch, Philipp J. and Benz, Christian and Ahmad, Muneer and Cankaya, Murat and Mayer, Helmut and Rodehorst, Volker and Oswald, Norbert and Braml, Thomas},
+  booktitle={2024 IEEE/CVF Winter Conference on Applications of Computer Vision Workshops (WACVW)}, 
+  abstract={Civil engineering structures - such as bridges - form an essential component of the transportation infrastructure. A failure of an individual structure can result in enormous damage and costs. The economic costs caused by the closure of a bridge due to congestion can be many times the costs of the bridge itself and its maintenance. Thus, it is mandatory to keep these structures in a safe and operational state. In order to ensure this, they are frequently inspected. However, the current inspection process is error-prone and lengthy. Especially the damage documentation using a hand-drawn sketch causes inconsistencies in the building assessment. On the other hand, recent advancements in hardware enable the deployment of computer vision models for increasing the quality, traceability, and efficiency of structural inspections. Such models are the key element of digitized structural inspections and the basis for automated damage classification, measurement and localization on a pixel-level. Current datasets available for this task suffer from limitations in both size and diversity of classes, raising concerns about their applicability in real-world contexts and their effectiveness as benchmarks. Addressing this problem, we introduced “dacl10k” (damage classification), a diverse dataset designed for multi-label semantic segmentation. Comprising 9,920 images extracted from real-world bridge inspections, “dacl10k” stands out by its comprehensive coverage. It includes 13 damage classes and 6 crucial bridge components pivotal in assessing structures and guiding decisions on restoration, traffic restrictions, and bridge closures. To accelerate progress in baseline development, we organized the “dacl-challenge”, inviting enthusiasts in damage recognition to vie for training the best performing model on the “dacl10k” dataset. The competition is at the core of the “1st Workshop on Vision-Based Structural Inspections in Civil Engineering”, hosted at WACV 2024. In total, 23 participants registered for the challenge, with eight achieving a performance superior to our baseline. The best result shows a mean intersection-over-union of 51%. This paper delineates the challenge's structure, introduces the dataset utilized, presents the achieved outcomes, and outlines prospective avenues for further exploration in this domain.},
+  title={dacl-challenge: Semantic Segmentation during Visual Bridge Inspections}, 
+  year={2024},
+  volume={},
+  number={},
+  pages={716-725},
+  keywords={Bridges;Computer vision;Visualization;Costs;Conferences;Computational modeling;Biological system modeling},
+  doi={10.1109/WACVW60836.2024.00084},
+  website={https://dacl.ai/workshop},
+  bibtex_show={true},
+  selected={true}
+}
+
+@INPROCEEDINGS{10483794,
+  code={https://github.com/phiyodr/dacl10k-toolkit},
+  author={Flotzinger, Johannes and Rösch, Philipp J. and Braml, Thomas},
+  booktitle={2024 IEEE/CVF Winter Conference on Applications of Computer Vision (WACV)}, 
+  title={dacl10k: Benchmark for Semantic Bridge Damage Segmentation}, 
+  abstract={Reliably identifying reinforced concrete defects (RCDs) plays a crucial role in assessing the structural integrity, traffic safety, and long-term durability of concrete bridges, which represent the most common bridge type worldwide. Nevertheless, available datasets for the recognition of RCDs are small in terms of size and class variety, which questions their usability in real-world scenarios and their role as a benchmark. Our contribution to this problem is "dacl10k", an exceptionally diverse RCD dataset for multi-label semantic segmentation comprising 9,920 images deriving from real-world bridge inspections. dacl10k distinguishes 12 damage classes as well as 6 bridge components that play a key role in the building assessment and recommending actions, such as restoration works, traffic load limitations or bridge closures. In addition, we examine baseline models for dacl10k which are subsequently evaluated. The best model achieves a mean intersection-over-union of 0.42 on the test set. dacl10k, along with our baselines, will be openly accessible to researchers and practitioners, representing the currently biggest dataset regarding number of images and class diversity for semantic segmentation in the bridge inspection domain.},
+  year={2024},
+  volume={},
+  number={},
+  pages={8611-8620},
+  keywords={Bridges;Semantic segmentation;Semantics;Telecommunication traffic;Inspection;Benchmark testing;Concrete;Applications;Structural engineering / civil engineering;Algorithms;Datasets and evaluations;Algorithms;Image recognition and understanding},
+  doi={10.1109/WACV57701.2024.00843},
+  website={https://try.fiftyone.ai/datasets/dacl10k/samples},
+  bibtex_show={true},
+  selected={true}
+ }
+
 @misc{flotzinger2023dacl10k,
       code={https://github.com/phiyodr/dacl10k-toolkit},
       title={dacl10k: Benchmark for Semantic Bridge Damage Segmentation}, 
@@ -9,17 +43,19 @@
       eprint={2309.00460},
       archivePrefix={arXiv},
       primaryClass={cs.CV},
-      selected={true}
+      bibtex_show={true}
 }
 
 @misc{flotzinger2023dacl1k,
       code={https://github.com/phiyodr/building-inspection-toolkit},
       title={dacl1k: Real-World Bridge Damage Dataset Putting Open-Source Data to the Test}, 
+      abstract={Recognising reinforced concrete defects (RCDs) is a crucial element for determining the structural integrity, traffic safety and durability of bridges. However, most of the existing datasets in the RCD domain are derived from a small number of bridges acquired in specific camera poses, lighting conditions and with fixed hardware. These limitations question the usability of models trained on such open-source data in real-world scenarios. We address this problem by testing such models on our "dacl1k" dataset, a highly diverse RCD dataset for multi-label classification based on building inspections including 1,474 images. Thereby, we trained the models on different combinations of open-source data (meta datasets) which were subsequently evaluated both extrinsically and intrinsically. During extrinsic evaluation, we report metrics on dacl1k and the meta datasets. The performance analysis on dacl1k shows practical usability of the meta data, where the best model shows an Exact Match Ratio of 32%. Additionally, we conduct an intrinsic evaluation by clustering the bottleneck features of the best model derived from the extrinsic evaluation in order to find out, if the model has learned distinguishing datasets or the classes (RCDs) which is the aspired goal. The dacl1k dataset and our trained models will be made publicly available, enabling researchers and practitioners to put their models to the real-world test.},
       author={Johannes Flotzinger and Philipp J. Rösch and Norbert Oswald and Thomas Braml},
       year={2023},
       eprint={2309.03763},
       archivePrefix={arXiv},
-      primaryClass={cs.CV}
+      primaryClass={cs.CV},
+      bibtex_show={true}
 }
 
 @INPROCEEDINGS{9897743,
@@ -27,11 +63,13 @@
   author={Flotzinger, Johannes and Rösch, Philipp J. and Oswald, Norbert and Braml, Thomas},
   booktitle={2022 IEEE International Conference on Image Processing (ICIP)}, 
   title={Building Inspection Toolkit: Unified Evaluation And Strong Baselines For Bridge Damage Recognition}, 
+  abstract={In recent years, several companies and researchers have started to tackle the problem of damage recognition within the scope of automated inspection of built structures. While companies are neither willing to publish associated data nor models, researchers are facing the problem of data shortage on one hand and inconsistent dataset splitting with the absence of consistent metrics on the other hand. This leads to incomparable results. Therefore, we introduce the building inspection toolkit – bikit – which acts as a simple to use data hub containing relevant open-source datasets in the field of damage recognition. The datasets are enriched with evaluation splits and predefined metrics, suiting the specific task and their data distribution. For the sake of compatibility and to motivate researchers in this domain, we also provide a leaderboard and the possibility to share model weights with the community. As a starting point we provide strong baselines utilizing extensive hyperparameter search using three transfer learning approaches for state-of-the-art algorithms. The toolkit 1 and the leaderboard 2 are available online.},
   year={2022},
   volume={},
   number={},
   pages={1221-1225},
-  doi={10.1109/ICIP46576.2022.9897743}
+  doi={10.1109/ICIP46576.2022.9897743},
+  bibtex_show={true},
  }
 
 @article{https://doi.org/10.1002/best.202200068,
@@ -41,27 +79,31 @@ journal = {Beton- und Stahlbetonbau},
 volume = {117},
 number = {10},
 pages = {786-794},
-keywords = {automatisierte Schadensklassifikation, digitale Bauwerksprüfung, Deep Learning, Künstliche Neuronale Netze, damage classification, digital inspection, deep learning, convolutional neural networks, Digitalisierung, Bauwerkserhaltung/Instandsetzung, Bauwerksüberwachung},
+keywords = {Automatisierte Schadensklassifikation, Digitale Bauwerksprüfung, Deep Learning, Künstliche Neuronale Netze, damage classification, digital inspection, deep learning, convolutional neural networks, Digitalisierung, Bauwerkserhaltung/Instandsetzung, Bauwerksüberwachung},
 doi = {https://doi.org/10.1002/best.202200068},
 url = {https://onlinelibrary.wiley.com/doi/abs/10.1002/best.202200068},
 eprint = {https://onlinelibrary.wiley.com/doi/pdf/10.1002/best.202200068},
 abstract = {Against the background of an ageing structure stock and the constant increase in heavy traffic, frequent structural inspections of high quality are indispensable. In accomplishing this task, the use of digital methods within the framework of digitized inspections (DIs) offers great potential for improvement in terms of cost-effectiveness and quality. An essential component of DIs is the automated detection of damage with Convolutional Neural Networks (CNNs). As part of the research project “Model-Based Digital Structural Inspection – MoBaP”, CNNs are being trained at the University of the Bundeswehr Munich for the classification of defects occurring on concrete bridges. On this domain's currently largest open-source dataset (CODEBRIM), the best CNN achieves an exact match ratio of 74 % and thus currently defines a strong baseline. In order to also train neural networks for object detection and semantic segmentation in this domain, a separate dataset is created. This enables not only the classification but also the localisation of damage on images. In this paper, the authors discuss the procedure of training neural networks for the classification of defects on concrete bridges and show a detailed analysis of test results. In addition, the development and current status of their own dataset is presented.},
-year = {2022}
+year = {2022},
+bibtex_show={true}
 }
 
 @INPROCEEDINGS{SEMC,
   author={Flotzinger, Johannes and Rösch, Philipp J. and Deuser, Fabian and Braml, Thomas and Maradni, Bishr},
   booktitle={2022 Conference on Structural Engineering, Mechanics and Computation (SEMC)}, 
-  title={Applying Automated Damage Classification During Digital Inspection of Structures}, 
+  title={Applying Automated Damage Classification During Digital Inspection of Structures},
+  abstract={Facing a continually growing stock of buildings reaching critical ages considering the occurrence of damage, the inspection of built structures is more important than ever. Due to staff shortages and limited financial resources, authorities may fail to ensure essential frequent inspections. Therefore, many companies and research institutions have recently started to develop concepts for a digital structural inspection which decisively facilitates and accelerates the current analogue process. Digitalized inspections include the generation of a digital twin composed of a building information model as well as the recognized, measured and assessed damage of the building. Recognition thereby depicts the classification and localization which is made possible by the deployment of convolutional neural networks (CNNs). Recognizing damage is therefore regarded as a crucial component in assessing a specific area’s as well as the building’s overall condition. This paper describes a process for the digital inspection of bridges with mobile devices. One of the concept’s key components is the automated damage recognition. Hence, also the development of CNNs for multi-target classification of damage on reinforced concrete bridges is examined. Finally, the development and usage of an application for live image classification of damage is presented which demonstrates the practical use of CNNs in a real world environment and enables their evaluation.}, 
   year={2022},
   volume={},
   number={},
   pages={1863-1869},
-  doi={https://doi.org/10.1201/9781003348443}  
+  doi={https://doi.org/10.1201/9781003348443},
+  bibtex_show={true} 
 }
 
 @article{SAKOPARNIG2023104764,
 title = {On the significance of accelerator enriched layers in wet-mix shotcrete},
+abstract = {The application process, which gives shotcrete its name is a robust and established method, dating back to the beginning of the 20th century. Since then, the spraying process has been significantly enhanced. However, during the last decades no major technical changes have been made. In this study the wet - mix shotcrete process including the dosing of accelerator was investigated. For this, we monitored the concrete and accelerator pressure with 5 sensors in the pumps and pipes, and analysed the accelerator distribution in the hardened shotcrete matrix. The recorded pressure fluctuations clearly indicated that the pumping of the concrete with a double-piston pump led to flow pulsations. The pressure along the accelerator pipes, controlled by a peristaltic pump, was not steady either. However, the accelerator flow pulsation had a higher frequency than that of the concrete flow. This misalignment led to changes in the accelerator to concrete ratio during the spraying process. The impact of these incongruent concrete and accelerator flows on the resulting hardened shotcrete was visually analysed with the use of 0.02 % uranin as fluorescent tracer added to the accelerator. The tracer distribution showed that changes in the accelerator/concrete ratio led to the formation of ‘accelerator layers’, layers with higher accelerator concentrations in the hardened shotcrete. These layers show differences in chemistry, mineralogy and open porosity compared to the rest of the shotcrete matrix. The presence of accelerator enriched layers can have detrimental effects on the shotcrete properties, especially affecting the durability and mechanical performance. In consequence, we recommend a revision of the shotcrete process to eliminate these inhomogeneities.},
 journal = {Tunnelling and Underground Space Technology},
 volume = {131},
 pages = {104764},
@@ -70,7 +112,8 @@ issn = {0886-7798},
 doi = {https://doi.org/10.1016/j.tust.2022.104764}    ,
 url = {https://www.sciencedirect.com/science/article/pii/S0886779822004047},
 author = {Marlene Sakoparnig and Isabel Galan and Wolfgang Kusterle and Benedikt Lindlar and Günther Koraimann and Thomas Angerer and Florian R. Steindl and Lukas G. Briendl and Sebastian Jehle and Johannes Flotzinger and Joachim Juhart and Florian Mittermayr},
-keywords = {Shotcrete, Accelerator, Layering, Concrete pumping, Pulsation, Inhomogeneities}
+keywords = {Shotcrete, Accelerator, Layering, Concrete pumping, Pulsation, Inhomogeneities},
+bibtex_show={true}
 }
 
 @inproceedings{6d89f703976a49a5829767e8a1c4c5b6,
@@ -81,5 +124,6 @@ pages = "10--26",
 booktitle = {Spritzbeton - Tagung 2021},
 note = "Spritzbeton-Tagung 2021 ; Conference date: 19-10-2021 Through 20-10-2021",
 abstract = {In the ÖBV-FFG funded research project "Advanced and sustainable sprayed concrete (ASSpC)" new shotcrete mix designs were developed. This paper deals with the effect of the fresh concrete properties and the pumping processes at the spraying machine on the sprayability and layer formation in the applied shotcrete. In addition to the fresh concrete properties and rheological properties of the concrete, the various pumping flows at the spraying machine were investigated (measurements of the pressures in the various delivery lines for concrete, accelerator and compressed air were carried out). Furthermore, findings from slowmotion pictures of the spray jet are reported. A marking agent was added to the accelerator to finally document its distribution in the applied shotcrete. It was shown that - assuming correct nozzle technique - the formation of layers in the shotcrete depends strongly on the machinerelated influences of the pumping and spraying process. It is accompanied by an unwanted uneven distribution of the accelerator in the concrete, which has far-reaching negative consequences on the shotcrete properties. The visualization of the optically visible and
-optically invisible inhomogeneities is reported in a related further article (Layer Formation - Part 2). Derived from the results shown, a large development potential for devices and processes is opened up}
+optically invisible inhomogeneities is reported in a related further article (Layer Formation - Part 2). Derived from the results shown, a large development potential for devices and processes is opened up},
+bibtex_show={true}
 }
