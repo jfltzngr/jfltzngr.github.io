@@ -67,20 +67,20 @@
 
 - title: Volunteering
   type: time_table
-    contents:
-      - title: TUM.ai member
-        institution: <a href="https://www.tum-ai.com/">TUM.ai</a>
-        year: Mai 2024 - present
-        description:
-        - I maintain the <a href="https://www.tum-ai.com/">TUM.ai</a> website as a member of the website taskforce.
-        - I work on the impact project "MI4Sucht" supervised by <a href="https://de.mi4people.org/">MI4People</a>.
-      - title: IJK member
-        institution: <a href="https://www.kelheim.de/vereine/initiative_jugend_und_kultur_k-7281/">IJK Kelheim</a>
-        year: Jan 2015 - present
-        description:
-        - IJK stands for "Initiative Jugend und Kultur Kelheim e.V."
-        - We are a community fostering young musicians and bringing new music to Kelheim.
-        - We provide a rehearsal room for bands, fund records, and organize concerts and the <a href="https://jukuu.de/">JUKUU</a> festival.
+  contents:
+    - title: TUM.ai member
+      institution: <a href="https://www.tum-ai.com/">TUM.ai</a>
+      year: Mai 2024 - present
+      description:
+      - I maintain the <a href="https://www.tum-ai.com/">TUM.ai</a> website as a member of the website taskforce.
+      - I work on the impact project "MI4Sucht" supervised by <a href="https://de.mi4people.org/">MI4People</a>.
+    - title: IJK member
+      institution: <a href="https://www.kelheim.de/vereine/initiative_jugend_und_kultur_k-7281/">IJK Kelheim</a>
+      year: Jan 2015 - present
+      description:
+      - IJK stands for "Initiative Jugend und Kultur Kelheim e.V."
+      - We are a community fostering young musicians and bringing new music to Kelheim.
+      - We provide a rehearsal room for bands, fund records, and organize concerts and the <a href="https://jukuu.de/">JUKUU</a> festival.
 
 - title: Other Interests
   type: list
