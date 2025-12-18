@@ -13,7 +13,7 @@
   contents:
     - title: PhD Candidate - Automated building inspections
       institution: University of the Budneswehr Munich, Germany
-      year: 2020 - present
+      year: 2020 - 2025
     - title: MEng - Civil engineering
       institution: OTH Regensburg, Germany
       year: 2016 - 2019
@@ -28,6 +28,11 @@
 - title: Working Experiences
   type: time_table
   contents:
+    - title: Head of Product
+      institution: <a href="https://dacl.ai/">dacl.ai</a>
+      year: Jan 2026 - present
+      description:
+      - "We automate buildings inspections and building management with AI. As Head of Product I am responsible for the product strategy and roadmap."
     - title: Research assistant in building materials
       institution: <a href="https://www.oth-regensburg.de/">OTH Regensburg</a>
       year: Mar 2019 - Jul 2020
