@@ -11,7 +11,7 @@ I successfully defended my PhD thesis! ->HÜÜÜYAAAAAAAAAAAA. You can call me "
  <br/>
  All :eyes: on [dacl.ai](https://dacl.ai/) now.<br/>
   <br/>
-Have nice christmas time!
+Have a nice christmas time!
 <br/>
 🐶🐶🐶<br/>
 
